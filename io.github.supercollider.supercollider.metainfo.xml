@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.supercollider.supercollider</id>
+  
+  <name>Supercollider</name>
+  <summary>A platform for audio synthesis and algorithmic composition, used by musicians, artists and researchers working with sound.</summary>
+  
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-only</project_license>
+  
+  <developer id="io.github.supercollider">
+    <name translate="no">James McCartney</name>
+  </developer>
+
+  <description>
+    <p>
+      SuperCollider features three major components:
+    </p>
+    <p>
+      scsynth – A real-time audio server sclang – An interpreted programming language scide – An editor for sclang with an integrated help system
+    </p>
+    <p>
+      SuperCollider was developed by James McCartney and originally released in 1996. In 2002, he generously released it as free software under the GNU General Public License. It is now maintained and developed by an active and enthusiastic community.
+    </p>
+  </description>
+  
+  <launchable type="desktop-id">SuperColliderIDE.desktop</launchable>
+
+  <icon type="stock">org.flatpak.qtdemo</icon>
+  <icon type="remote">https://supercollider.github.io/assets/img/logo.svg</icon>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://supercollider.github.io/assets/img/logo.svg</image>
+      <caption>SuperCollider logo</caption>
+    </screenshot>
+  </screenshots>
+
+</component>
